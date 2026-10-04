@@ -1,0 +1,43 @@
+<?php
+
+return [
+    'accepted' => ':attribute harus disetujui.',
+    'array' => ':attribute harus berupa daftar data yang valid.',
+    'boolean' => ':attribute harus bernilai ya atau tidak.',
+    'decimal' => ':attribute harus memiliki :decimal angka desimal.',
+    'distinct' => ':attribute tidak boleh berisi pilihan yang sama.',
+    'email' => ':attribute harus berupa alamat email yang valid.',
+    'exists' => 'Pilihan :attribute tidak valid.',
+    'integer' => ':attribute harus berupa bilangan bulat.',
+    'max' => [
+        'array' => ':attribute maksimal berisi :max data.',
+        'numeric' => ':attribute maksimal :max.',
+        'string' => ':attribute maksimal :max karakter.',
+    ],
+    'min' => [
+        'array' => ':attribute minimal berisi :min data.',
+        'numeric' => ':attribute minimal :min.',
+        'string' => ':attribute minimal :min karakter.',
+    ],
+    'numeric' => ':attribute harus berupa angka.',
+    'required' => ':attribute wajib diisi.',
+    'string' => ':attribute harus berupa teks.',
+    'unique' => ':attribute sudah digunakan.',
+    'attributes' => [
+        'address' => 'alamat',
+        'category' => 'kategori',
+        'customer_id' => 'pelanggan',
+        'description' => 'deskripsi',
+        'email' => 'email',
+        'items' => 'keranjang',
+        'items.*.product_id' => 'produk',
+        'items.*.quantity' => 'jumlah',
+        'name' => 'nama',
+        'notes' => 'catatan',
+        'payment_method' => 'metode pembayaran',
+        'phone' => 'nomor telepon',
+        'price' => 'harga',
+        'sku' => 'SKU',
+        'stock' => 'stok',
+    ],
+];
